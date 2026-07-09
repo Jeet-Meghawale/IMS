@@ -3,3 +3,5 @@ node_modules
 PORT=5000
 
 /src/generated/prisma
+
+/src/generated/prisma
