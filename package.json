@@ -1,7 +1,6 @@
 {
   "name": "ims",
   "version": "1.0.0",
-  "description": "",
   "license": "ISC",
   "author": "Jeet",
   "type": "module",
@@ -24,5 +23,14 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeet-Meghawale/IMS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jeet-Meghawale/IMS/issues"
+  },
+  "homepage": "https://github.com/Jeet-Meghawale/IMS#readme",
+  "description": ""
 }

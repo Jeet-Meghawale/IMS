@@ -14,6 +14,9 @@ app.use(helmet())
 
 app.use("/api/v1", routes) 
 
+// Error middleware
+app.use(errorMiddleware);
+
 app.get("/", (req, res) => {
   res.json({
     success: true,
