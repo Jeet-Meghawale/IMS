@@ -25,8 +25,8 @@ router.post(
 // Get All Users
 router.get(
   "/",
-  authMiddleware,
-  authorize("ADMIN", "BUSINESS_INTELLIGENCE"),
+  // authMiddleware,
+  // authorize("ADMIN", "BUSINESS_INTELLIGENCE"),
   UserController.getAllUsers
 );
 
